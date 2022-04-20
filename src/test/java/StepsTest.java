@@ -19,7 +19,7 @@ public class StepsTest {
     }
 
     @Test
-    @Description("Совпадение заголовка канала со значением в поиске")
+    @Description("Matching the channel title with the value in the search")
     public void FirstTest(){
         SelenideLogger.addListener("allure", new AllureSelenide());
         StepwisePartitioning Step = new StepwisePartitioning();
